@@ -16,13 +16,35 @@ body {
 
 .form,
 .greetings {
-  display: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .showing {
-  display: block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.js-clock {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.js-toDoForm {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.js-toDoList {
+  display: flex;
+  justify-content: center;
 }
 
+.js-weather {
+  display: flex;
+  justify-content: flex-end;
+}
 @keyframes fadeIn {
   from {
     opacity: 0;
