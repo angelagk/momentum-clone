@@ -58,7 +58,7 @@ const toDoForm = document.querySelector(".js-toDoForm"),
         const loadedToDos = localStorage.getItem(TODOS_LS);
         if (loadedToDos !== null){
             const parsedToDos = JSON.parse(loadedToDos);
-            parsedToDos.ForEach(function(ToDo) {
+            parsedToDos.forEach(function(toDo) {
              paintToDo(toDo.text);
            });
            
